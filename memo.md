@@ -116,3 +116,20 @@ Hai chân dung dưới đây là **archetype phân tích**, không phải khẳn
 ### Trả lời phản biện CP2
 
 **Lực giữ user mạnh nhất là Habit & inertia, cụ thể là dữ liệu + workflow cộng tác tích lũy trong workspace.** Model có thể bị thay thế và AI writer là wrapper tương đối mỏng; nhưng một workspace có pages, database, permissions, template, integrations và quy ước làm việc của cả team thì khó “mang đi” nguyên trạng. Nếu lực này biến mất — ví dụ dữ liệu/permission/automation có chuẩn mở và một đối thủ index được mọi nguồn với chất lượng tương đương, không cần team đổi thói quen — Notion AI dễ bị multi-home: user dùng ChatGPT, Slack AI hoặc công cụ search khác, và Notion bị kéo về vai trò nơi lưu tài liệu thay vì lớp AI chủ đạo.
+
+## Step 3 — Ba dự đoán hướng đi
+
+> **Mốc quan sát để dự đoán: 18/09/2025.** Các dự đoán dưới đây chỉ dùng những bằng chứng ở Step 1–2, không dùng release sau ngày này.
+
+**Dự đoán 1 — Mở rộng tính năng: Agent chuyển từ “trợ lý cá nhân” sang custom agent theo phòng ban, có trigger/schedule và template workflow.**  
+**Lập luận:** Notion 3.0 đã cho Agent đọc–ghi pages/databases, dùng instructions/memory và công bố Custom Agents chạy theo trigger hoặc lịch; nền connectors + permission đã được dựng từ Q&A/Enterprise Search. Đây là bước hợp logic để biến knowledge đã tích lũy thành hành động lặp lại cho RevOps, HR, CS hay Engineering, thay vì chỉ trả lời một lần. [Notion 3.0](https://www.notion.com/releases/2025-09-18)
+
+**Dự đoán 2 — Mở rộng segment: Notion sẽ bán mạnh hơn cho team vận hành tri thức liên phòng ban (đặc biệt RevOps/CS/People Ops), không chỉ team vốn đã “sống trong Notion”.**  
+**Lập luận:** Tệp hiện tại ở Step 2 cần trả lời nhanh câu hỏi phân tán giữa Notion, Slack, Drive, CRM và ticketing; mốc 2024–2025 đã thêm Salesforce, Zendesk, Microsoft, Gmail, Linear, meeting notes và Research Mode. Nhóm này có pain “work about work” rõ, nhiều người hỏi lặp lại và có buyer doanh nghiệp — phù hợp hơn với Enterprise Search/Agent so với một AI writer phổ thông. [Release 2.41](https://www.notion.com/releases/2024-06-18) · [Release 2.51](https://www.notion.com/releases/2025-05-13)
+
+**Dự đoán 3 — Thay đổi mô hình kiếm tiền: Notion sẽ tách giá trị agent/high-cost model khỏi AI cơ bản bằng hạn mức usage hoặc add-on theo cấp doanh nghiệp.**  
+**Lập luận:** Notion đã đi từ credits/query sang flat fee để khuyến khích khám phá AI writer, rồi gộp AI vào Business/Enterprise khi tính năng trở thành team workflow. Nhưng Agent chạy nhiều bước, Research Mode và model frontier có cost biến đổi cao; pricing đồng hạng cho mọi mức sử dụng sẽ không bền, nên tier/allowance theo tác vụ agent hoặc model cao cấp là bước tiếp theo hợp lý. [Bài học pricing](https://www.notion.com/blog/lessons-we-learned-from-launching-notion-ai) · [Release 2.51](https://www.notion.com/releases/2025-05-13)
+
+### Trả lời phản biện CP3
+
+**Tự tin nhất: Dự đoán 1.** Nó không chỉ là suy đoán từ xu hướng: Notion 3.0 đã có Agent, instructions, memory và nói rõ Custom Agents theo trigger/schedule là hướng đang tới. Giả định làm nó gãy là doanh nghiệp không tin agent có quyền ghi/sửa dữ liệu, hoặc kết quả không đủ chính xác để vượt qua rủi ro governance; khi đó Notion có thể dừng ở search/assistant “read-only” thay vì agent tự hành động.
